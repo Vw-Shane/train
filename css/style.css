@@ -15,7 +15,9 @@
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-
+        body{
+            background-color: green;
+        }
     }
 
     /* Medium Devices, Desktops */
