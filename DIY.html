@@ -40,10 +40,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Current Schedule <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html"> Active Scheudle</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="DIY.html">Make your own Schedule</a>
+                    <a class="nav-link" href="DIY.html">Make your own Schedule <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Train Map</a>
@@ -58,22 +58,17 @@
     </div>
     <div class="Main-container">
         <div id="Map">
-            <h3>  &nbsp A dynamic Map will go here </h3>
+            <h3>A dynamic Map will go here </h3>
         </div>
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <button class="btn btn-danger btn-lg" id="Express"> Express Train</button>
+                <button type="button" class="btn btn-danger btn-lg" id="Express"> Express Train</button>
                 <div class="panel panel-primary">
-                <div class="panel-heading">
-                        <h3 class="panel-title"><strong> </strong></h3>
-                    </div>
                     <div class="panel-body">
                         <table class="table" id='Express-table'>
-                            <thead>
-                            	
-                            </thead>
                             <tbody>
+                            
                             </tbody>
                         </table>
                     </div>
@@ -117,25 +112,25 @@
                         <form>
                             <div class="form-group">
                                 <label for="employee-name-input">Train Name</label>
-                                <input class="form-control" id="trainName" type="text">
+                                <input class="form-control" id="employee-name-input" type="text">
                             </div>
                             <div class="form-group">
                                 <label for="role-input">Stops</label>
-                                <input class="form-control" id="Stops" type="text">
+                                <input class="form-control" id="role-input" type="text">
                             </div>
                             <div class="form-group">
                                 <label for="start-input">Arival Time</label>
-                                <input class="form-control" id="Arrive" type="text">
+                                <input class="form-control" id="start-input" type="text">
                             </div>
                             <div class="form-group">
                                 <label for="rate-input">Departure Time</label>
-                                <input class="form-control" id="Departure" type="text">
+                                <input class="form-control" id="rate-input" type="text">
                             </div>
                              <div class="form-group">
                                 <label for="cost-input">Cost</label>
-                                <input class="form-control" id="cost" type="text">
+                                <input class="form-control" id="rate-input" type="text">
                             </div>
-                            <button class="btn btn-primary" id="submit" type="submit">Submit</button>
+                            <button class="btn btn-primary" id="add-employee-btn" type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
