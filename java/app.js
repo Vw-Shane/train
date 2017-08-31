@@ -53,7 +53,7 @@ $(document).ready(function() {
         };
 
         // database.ref().set(ChoCho);
-        database.ref().set(ChoCho1);
+        database.ref().push(ChoCho1);
         $("#trainName").val("");
         $("#Stops").val("");
         $("#Arrive").val("");
