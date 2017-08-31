@@ -8,9 +8,7 @@
 .jumbotron-fluid{
             background-color: #A8C1EB;
         }
-.thead{
-    border-style: none;
-}        
+
 
  @media only screen and (min-width : 320px) and (max-width: 480px) {
         body{
@@ -18,7 +16,9 @@
             background-image: url(../pics/rotate.png);
             background-size: 99%;
             background-repeat: no-repeat;
-
+        }
+        .container{
+            margin-left: 1%;
         }
         
     }
