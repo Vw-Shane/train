@@ -1,20 +1,36 @@
- @media only screen and (min-width : 320px) {
-        body{
-            background-color: red;
+ body{display: all;
+            background-color: #BCD0F2;
+        }
+.container{
+            background-color: #A8C1EB;
         }
 
+.jumbotron-fluid{
+            background-color: #A8C1EB;
+        }
+.thead{
+    border-style: none;
+}        
+
+ @media only screen and (min-width : 320px) and (max-width: 480px) {
+        body{
+            display: none;
+            background-image: url(../pics/rotate.png);
+            background-size: 99%;
+            background-repeat: no-repeat;
+
+        }
+        
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
-        body{
-            background-color: blue;
-        }
+        
 
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
+    @media only screen and (min-width : 768px) and (max-width: 991px) {
         body{
             background-color: green;
         }
